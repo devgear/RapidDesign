@@ -1,0 +1,207 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Rapid Design LAB : Polygon and Silver Switch'
+  ClientHeight = 535
+  ClientWidth = 782
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object RDLPolygon1: TRDLPolygon
+    Position.X = 40.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    ColorFill = claOrange
+    PolygonType = VerticesNo3
+  end
+  object RDLPolygon4: TRDLPolygon
+    Position.X = 464.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    ColorFill = claMediumvioletred
+    PolygonType = VerticesNo6
+  end
+  object RDLPolygon10: TRDLPolygon
+    Position.X = 608.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColorFill = claBlue
+    PolygonType = VerticesNo12
+  end
+  object RDLPolygon2: TRDLPolygon
+    Position.X = 176.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    ColorFill = claIndianred
+    PolygonType = VerticesNo4
+  end
+  object RDLPolygon3: TRDLPolygon
+    Position.X = 320.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    ColorFill = claMaroon
+    PolygonType = VerticesNo5
+  end
+  object RDLPolygon5: TRDLPolygon
+    Position.X = 608.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    ColorFill = claRed
+    PolygonType = VerticesNo7
+  end
+  object RDLPolygon7: TRDLPolygon
+    Position.X = 176.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    ColorFill = claLightseagreen
+    PolygonType = VerticesNo9
+  end
+  object RDLPolygon6: TRDLPolygon
+    Position.X = 32.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    ColorFill = claAqua
+    PolygonType = VerticesNo8
+  end
+  object RDLPolygon8: TRDLPolygon
+    Position.X = 320.000000000000000000
+    Position.Y = 191.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 9
+    ColorFill = claMediumpurple
+    PolygonType = VerticesNo10
+  end
+  object RDLPolygon9: TRDLPolygon
+    Position.X = 464.000000000000000000
+    Position.Y = 192.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    ColorFill = claDodgerblue
+    PolygonType = VerticesNo11
+  end
+  object RDLSilverSwitch1: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 64.000000000000000000
+    Position.Y = 384.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    ColorOFF = claSilver
+    ColorON = claCrimson
+    IsChecked = True
+  end
+  object RDLSilverSwitch2: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 200.000000000000000000
+    Position.Y = 392.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 14
+    ColorOFF = claSilver
+    ColorON = claBlue
+    IsChecked = True
+  end
+  object RDLSilverSwitch3: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 336.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 16
+    ColorOFF = xFF707070
+    ColorON = claCrimson
+    IsChecked = False
+  end
+  object RDLSilverSwitch4: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 528.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 18
+    ColorOFF = xFF505050
+    ColorON = claCrimson
+    IsChecked = False
+  end
+  object RDLSilverSwitch5: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 64.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 65.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    ColorOFF = claSilver
+    ColorON = claCrimson
+    IsChecked = False
+  end
+  object RDLSilverSwitch6: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 200.000000000000000000
+    Position.Y = 344.000000000000000000
+    Size.Width = 81.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 13
+    ColorOFF = xFF909090
+    ColorON = claCrimson
+    IsChecked = False
+  end
+  object RDLSilverSwitch7: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 336.000000000000000000
+    Position.Y = 408.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    ColorOFF = claSilver
+    ColorON = claBlueviolet
+    IsChecked = True
+  end
+  object RDLSilverSwitch8: TRDLSilverSwitch
+    HitTest = True
+    Position.X = 528.000000000000000000
+    Position.Y = 416.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 17
+    ColorOFF = claSilver
+    ColorON = claGold
+    IsChecked = True
+  end
+end
