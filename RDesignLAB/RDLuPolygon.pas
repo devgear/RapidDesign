@@ -12,7 +12,7 @@ type
 type
   TRDLPolygon = class(TLayout)
   private
-    { Private declarations }
+    { Private declarations  }
 
     FColorFill   : TAlphaColor;
     FPolygonType : TPolygonType;

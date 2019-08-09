@@ -9,7 +9,7 @@ uses
 type
   TRDLCircleGauge = class(TLayout)
   private
-    { Private declarations }
+    { Private declarations  }
     FBitmapPanel,
     FBitmapNeedle : TBitmap;
     FTextLabel : string;
